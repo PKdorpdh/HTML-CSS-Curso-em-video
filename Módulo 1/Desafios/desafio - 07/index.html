@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Caso mude a resolução da sua janela para aproveitar uma experiência melhor.</p>
+    <picture>
+        <source media="(max-width: 1000px)" srcset="Imagens/OnePiece-p.jpg" type="image/jpg">
+        <source media="(max-width: 1500px)" srcset="Imagens/OnePiece-m.jpg" type="image/jpg">        
+        <img src="Imagens/OnePiece.jpg" alt="One Piece wallpaper">
+    </picture>
+</body>
+</html>
