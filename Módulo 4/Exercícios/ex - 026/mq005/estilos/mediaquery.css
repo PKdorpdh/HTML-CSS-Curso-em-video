@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*
+Phone - 600px
+Tablet landscape - 768px
+PC - 992px
+TV - 1200px */
+
+@media screen and (min-width: 768px){
+    span#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu>ul>li {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 992px){
+    main {
+        max-width: 1000px;
+    }
+}
